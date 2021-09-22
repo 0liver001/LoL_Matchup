@@ -13,6 +13,34 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    // true left hero is changing 7 false right hero is changing
+    var isLeftSide = false;
+    var imageArray = idkhowtoaddimgarrays;
+    var iconArray = idkhowtoaddimgarrays;
+    
+    
+    
+    
+    func ChooseParticipantButton() {
+        
+        if (pressedButtonTag == "left") {
+            isLeftSide = true;
+        } else {
+            isLeftSide = false;
+        }
+        
+    }
+    
+    func ChooseHeroButton() {
+        
+        playsound()
+        
+        if (isLeftSide) {
+            
+        }
+        
+    }
 
 
 }
