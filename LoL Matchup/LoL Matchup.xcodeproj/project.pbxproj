@@ -12,9 +12,9 @@
 		A3DD96A626FB161700058BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD96A526FB161700058BAD /* ViewController.swift */; };
 		A3DD96A926FB161700058BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DD96A726FB161700058BAD /* Main.storyboard */; };
 		A3DD96AB26FB161900058BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DD96AA26FB161900058BAD /* Assets.xcassets */; };
-		A3DD96AE26FB161900058BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DD96AC26FB161900058BAD /* LaunchScreen.storyboard */; };
 		A3DD96B926FB161A00058BAD /* LoL_MatchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD96B826FB161A00058BAD /* LoL_MatchupTests.swift */; };
 		A3DD96C426FB161A00058BAD /* LoL_MatchupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD96C326FB161A00058BAD /* LoL_MatchupUITests.swift */; };
+		A3DD96D226FB29A600058BAD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DD96D126FB29A600058BAD /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		A3DD96A526FB161700058BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3DD96A826FB161700058BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3DD96AA26FB161900058BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3DD96AD26FB161900058BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3DD96AF26FB161900058BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3DD96B426FB161A00058BAD /* LoL MatchupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoL MatchupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DD96B826FB161A00058BAD /* LoL_MatchupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoL_MatchupTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		A3DD96BF26FB161A00058BAD /* LoL MatchupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoL MatchupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DD96C326FB161A00058BAD /* LoL_MatchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoL_MatchupUITests.swift; sourceTree = "<group>"; };
 		A3DD96C526FB161A00058BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DD96D126FB29A600058BAD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,12 @@
 		A3DD96A026FB161700058BAD /* LoL Matchup */ = {
 			isa = PBXGroup;
 			children = (
+				A3DD96D126FB29A600058BAD /* Launch Screen.storyboard */,
 				A3DD96A126FB161700058BAD /* AppDelegate.swift */,
 				A3DD96A326FB161700058BAD /* SceneDelegate.swift */,
 				A3DD96A526FB161700058BAD /* ViewController.swift */,
 				A3DD96A726FB161700058BAD /* Main.storyboard */,
 				A3DD96AA26FB161900058BAD /* Assets.xcassets */,
-				A3DD96AC26FB161900058BAD /* LaunchScreen.storyboard */,
 				A3DD96AF26FB161900058BAD /* Info.plist */,
 			);
 			path = "LoL Matchup";
@@ -231,7 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DD96AE26FB161900058BAD /* LaunchScreen.storyboard in Resources */,
+				A3DD96D226FB29A600058BAD /* Launch Screen.storyboard in Resources */,
 				A3DD96AB26FB161900058BAD /* Assets.xcassets in Resources */,
 				A3DD96A926FB161700058BAD /* Main.storyboard in Resources */,
 			);
@@ -302,14 +302,6 @@
 				A3DD96A826FB161700058BAD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3DD96AC26FB161900058BAD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3DD96AD26FB161900058BAD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
