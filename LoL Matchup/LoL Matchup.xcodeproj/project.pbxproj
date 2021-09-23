@@ -15,6 +15,13 @@
 		A3DD96B926FB161A00058BAD /* LoL_MatchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD96B826FB161A00058BAD /* LoL_MatchupTests.swift */; };
 		A3DD96C426FB161A00058BAD /* LoL_MatchupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD96C326FB161A00058BAD /* LoL_MatchupUITests.swift */; };
 		A3DD96D226FB29A600058BAD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DD96D126FB29A600058BAD /* Launch Screen.storyboard */; };
+		A55C346126FC794300BE2C4C /* Kennen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A55C345B26FC794200BE2C4C /* Kennen.mp3 */; };
+		A55C346226FC794300BE2C4C /* Renekton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A55C345C26FC794200BE2C4C /* Renekton.mp3 */; };
+		A55C346326FC794300BE2C4C /* Darius.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A55C345D26FC794300BE2C4C /* Darius.mp3 */; };
+		A55C346426FC794300BE2C4C /* Fiora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A55C345E26FC794300BE2C4C /* Fiora.mp3 */; };
+		A55C346526FC794300BE2C4C /* Mordekaiser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A55C345F26FC794300BE2C4C /* Mordekaiser.mp3 */; };
+		A55C346626FC794300BE2C4C /* Riven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A55C346026FC794300BE2C4C /* Riven.mp3 */; };
+		A55C346926FC79BD00BE2C4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55C346826FC79BD00BE2C4C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		A3DD96C326FB161A00058BAD /* LoL_MatchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoL_MatchupUITests.swift; sourceTree = "<group>"; };
 		A3DD96C526FB161A00058BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3DD96D126FB29A600058BAD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A55C345B26FC794200BE2C4C /* Kennen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kennen.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Kennen.mp3; sourceTree = "<group>"; };
+		A55C345C26FC794200BE2C4C /* Renekton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Renekton.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Renekton.mp3; sourceTree = "<group>"; };
+		A55C345D26FC794300BE2C4C /* Darius.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Darius.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Darius.mp3; sourceTree = "<group>"; };
+		A55C345E26FC794300BE2C4C /* Fiora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fiora.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Fiora.mp3; sourceTree = "<group>"; };
+		A55C345F26FC794300BE2C4C /* Mordekaiser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mordekaiser.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Mordekaiser.mp3; sourceTree = "<group>"; };
+		A55C346026FC794300BE2C4C /* Riven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Riven.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Riven.mp3; sourceTree = "<group>"; };
+		A55C346826FC79BD00BE2C4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55C346926FC79BD00BE2C4C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,7 @@
 				A3DD96B726FB161A00058BAD /* LoL MatchupTests */,
 				A3DD96C226FB161A00058BAD /* LoL MatchupUITests */,
 				A3DD969F26FB161700058BAD /* Products */,
+				A55C346726FC79BD00BE2C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +121,12 @@
 				A3DD96A526FB161700058BAD /* ViewController.swift */,
 				A3DD96A726FB161700058BAD /* Main.storyboard */,
 				A3DD96AA26FB161900058BAD /* Assets.xcassets */,
+				A55C345D26FC794300BE2C4C /* Darius.mp3 */,
+				A55C345E26FC794300BE2C4C /* Fiora.mp3 */,
+				A55C345B26FC794200BE2C4C /* Kennen.mp3 */,
+				A55C345F26FC794300BE2C4C /* Mordekaiser.mp3 */,
+				A55C345C26FC794200BE2C4C /* Renekton.mp3 */,
+				A55C346026FC794300BE2C4C /* Riven.mp3 */,
 				A3DD96AF26FB161900058BAD /* Info.plist */,
 			);
 			path = "LoL Matchup";
@@ -126,6 +148,14 @@
 				A3DD96C526FB161A00058BAD /* Info.plist */,
 			);
 			path = "LoL MatchupUITests";
+			sourceTree = "<group>";
+		};
+		A55C346726FC79BD00BE2C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A55C346826FC79BD00BE2C4C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +262,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3DD96D226FB29A600058BAD /* Launch Screen.storyboard in Resources */,
+				A55C346426FC794300BE2C4C /* Fiora.mp3 in Resources */,
 				A3DD96AB26FB161900058BAD /* Assets.xcassets in Resources */,
+				A55C346526FC794300BE2C4C /* Mordekaiser.mp3 in Resources */,
+				A55C346226FC794300BE2C4C /* Renekton.mp3 in Resources */,
 				A3DD96A926FB161700058BAD /* Main.storyboard in Resources */,
+				A55C346326FC794300BE2C4C /* Darius.mp3 in Resources */,
+				A55C346126FC794300BE2C4C /* Kennen.mp3 in Resources */,
+				A55C346626FC794300BE2C4C /* Riven.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
