@@ -236,10 +236,11 @@ class ViewController: UIViewController {
         case 0:
             if(arrIndexR == 1 || arrIndexR == 2 || arrIndexR == 5){
                 itemL.image = items[1]
-                
+                itemR.image = items[3]
             }
             else{
                 itemL.image = items[0]
+                itemR.image = items[3]
             }
         case 1:
             if(arrIndexR == 2 || arrIndexR == 3 || arrIndexR == 4){
@@ -301,6 +302,8 @@ class ViewController: UIViewController {
         
         smallImageL.layer.cornerRadius = 45
         smallImageR.layer.cornerRadius = 45
+        
+        
         
         // initializing hereos
         Lchamp.text = "Darius"
