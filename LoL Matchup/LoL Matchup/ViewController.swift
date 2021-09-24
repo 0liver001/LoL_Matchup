@@ -17,12 +17,12 @@ class ViewController: UIViewController {
     
     // initializing audio
     let voicelines = [
-        Bundle.main.path(forResource : "Darius", ofType : ".mp3"),
-        Bundle.main.path(forResource : "Fiora", ofType : ".mp3"),
-        Bundle.main.path(forResource : "Kennen", ofType : ".mp3"),
-        Bundle.main.path(forResource : "Mordekaiser", ofType : ".mp3"),
-        Bundle.main.path(forResource : "Riven", ofType : ".mp3"),
-        Bundle.main.path(forResource : "Renekton", ofType : ".mp3"),
+        Bundle.main.path(forResource : "Darius", ofType : ".mp3", inDirectory: "VLines"),
+        Bundle.main.path(forResource : "Fiora", ofType : ".mp3", inDirectory: "VLines"),
+        Bundle.main.path(forResource : "Kennen", ofType : ".mp3", inDirectory: "VLines"),
+        Bundle.main.path(forResource : "Mordekaiser", ofType : ".mp3", inDirectory: "VLines"),
+        Bundle.main.path(forResource : "Riven", ofType : ".mp3", inDirectory: "VLines"),
+        Bundle.main.path(forResource : "Renekton", ofType : ".mp3", inDirectory: "VLines"),
     ]
     
     
