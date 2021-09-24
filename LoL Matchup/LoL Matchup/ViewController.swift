@@ -44,6 +44,8 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
             
             
         case 1: // Fiora
@@ -56,6 +58,10 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
+            
         case 2: // Kennen
             Lchamp.text = "Kennen"
             imageL.image = champs[2]
@@ -66,6 +72,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 3: // Mordekaiser
             Lchamp.text = "Morde"
             imageL.image = champs[3]
@@ -76,6 +85,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 4: //Riven
             Lchamp.text = "Riven"
             imageL.image = champs[4]
@@ -86,6 +98,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 5: //Renekton
             Lchamp.text = "Renekton"
             imageL.image = champs[5]
@@ -96,10 +111,12 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         default:
             Lchamp.text = "champion"
         }
-        itemPicker();
     }
     
     @IBAction func Rbutton(_ sender: UIButton) {
@@ -119,6 +136,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 1: // Fiora
             Rchamp.text = "Fiora"
             imageR.image = champs[1]
@@ -129,6 +149,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 2: // Kennen
             Rchamp.text = "Kennen"
             imageR.image = champs[2]
@@ -139,6 +162,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 3: // Mordekaiser
             Rchamp.text = "Morde"
             imageR.image = champs[3]
@@ -149,6 +175,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 4: //Riven
             Rchamp.text = "Riven"
             imageR.image = champs[4]
@@ -159,6 +188,9 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         case 5: //Renekton
             Rchamp.text = "Renekton"
             imageR.image = champs[5]
@@ -169,10 +201,12 @@ class ViewController: UIViewController {
                 print(error)
             }
             myPlayer.play()
+            itemL.image = nil
+            itemR.image = nil
+            
         default:
             Rchamp.text = "champion"
         }
-        itemPicker();
     }
     
     @IBOutlet weak var imageL: UIImageView!
@@ -187,10 +221,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var Rchamp: UILabel!
     
     @IBOutlet weak var itemL: UIImageView!
+    @IBOutlet weak var itemR: UIImageView!
     
+    @IBAction func buildButton(_ sender: UIButton) {
+        itemPicker()
+    }
     let champs: [UIImage] = [ #imageLiteral(resourceName: "darius"), #imageLiteral(resourceName: "fiora"), #imageLiteral(resourceName: "kennen"), #imageLiteral(resourceName: "MicrosoftTeams-image"), #imageLiteral(resourceName: "riven"), #imageLiteral(resourceName: "renekton") ]
     let runes: [UIImage] = [#imageLiteral(resourceName: "conqueror"), #imageLiteral(resourceName: "grasp"), #imageLiteral(resourceName: "rush")]
-    let items: [UIImage] = [#imageLiteral(resourceName: "dblade"), #imageLiteral(resourceName: "dshield"), #imageLiteral(resourceName: "dring")]
+    let items: [UIImage] = [#imageLiteral(resourceName: "dblade"), #imageLiteral(resourceName: "dshield"), #imageLiteral(resourceName: "dring"), #imageLiteral(resourceName: "potion")]
     
     
     func itemPicker(){
@@ -198,6 +236,7 @@ class ViewController: UIViewController {
         case 0:
             if(arrIndexR == 1 || arrIndexR == 2 || arrIndexR == 5){
                 itemL.image = items[1]
+                
             }
             else{
                 itemL.image = items[0]
@@ -205,37 +244,47 @@ class ViewController: UIViewController {
         case 1:
             if(arrIndexR == 2 || arrIndexR == 3 || arrIndexR == 4){
                 itemL.image = items[1]
+                itemR.image = items[3]
             }
             else{
                 itemL.image = items[0]
+                itemR.image = items[3]
             }
         case 2:
             if(arrIndexR == 0 || arrIndexR == 1){
                 itemL.image = items[0]
+                itemR.image = items[3]
             }
             else{
                 itemL.image = items[2]
+                itemR.image = items[3]
             }
         case 3:
             if(arrIndexR == 1 || arrIndexR == 2 || arrIndexR == 4){
                 itemL.image = items[1]
+                itemR.image = items[3]
             }
             else{
                 itemL.image = items[2]
+                itemR.image = items[3]
             }
         case 4:
             if(arrIndexR == 1 || arrIndexR == 2 || arrIndexR == 3){
                 itemL.image = items[1]
+                itemR.image = items[3]
             }
             else{
                 itemL.image = items[0]
+                itemR.image = items[3]
             }
         case 5:
             if(arrIndexR == 1 || arrIndexR == 2){
                 itemL.image = items[1]
+                itemR.image = items[3]
             }
             else{
                 itemL.image = items[0]
+                itemR.image = items[3]
             }
         default:
             var a = 0

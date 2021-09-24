@@ -56,12 +56,12 @@
 		A3DD96C326FB161A00058BAD /* LoL_MatchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoL_MatchupUITests.swift; sourceTree = "<group>"; };
 		A3DD96C526FB161A00058BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3DD96D126FB29A600058BAD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		A55C345B26FC794200BE2C4C /* Kennen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kennen.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Kennen.mp3; sourceTree = "<group>"; };
-		A55C345C26FC794200BE2C4C /* Renekton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Renekton.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Renekton.mp3; sourceTree = "<group>"; };
-		A55C345D26FC794300BE2C4C /* Darius.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Darius.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Darius.mp3; sourceTree = "<group>"; };
-		A55C345E26FC794300BE2C4C /* Fiora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fiora.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Fiora.mp3; sourceTree = "<group>"; };
-		A55C345F26FC794300BE2C4C /* Mordekaiser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mordekaiser.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Mordekaiser.mp3; sourceTree = "<group>"; };
-		A55C346026FC794300BE2C4C /* Riven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Riven.mp3; path = ../../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Riven.mp3; sourceTree = "<group>"; };
+		A55C345B26FC794200BE2C4C /* Kennen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kennen.mp3; path = ../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Kennen.mp3; sourceTree = SOURCE_ROOT; };
+		A55C345C26FC794200BE2C4C /* Renekton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Renekton.mp3; path = ../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Renekton.mp3; sourceTree = SOURCE_ROOT; };
+		A55C345D26FC794300BE2C4C /* Darius.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Darius.mp3; path = ../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Darius.mp3; sourceTree = SOURCE_ROOT; };
+		A55C345E26FC794300BE2C4C /* Fiora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fiora.mp3; path = ../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Fiora.mp3; sourceTree = SOURCE_ROOT; };
+		A55C345F26FC794300BE2C4C /* Mordekaiser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mordekaiser.mp3; path = ../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Mordekaiser.mp3; sourceTree = SOURCE_ROOT; };
+		A55C346026FC794300BE2C4C /* Riven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Riven.mp3; path = ../../../../../Users/bbs2h20ani/Downloads/LoLSounds/Riven.mp3; sourceTree = SOURCE_ROOT; };
 		A55C346826FC79BD00BE2C4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
